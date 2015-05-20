@@ -3,12 +3,13 @@
 
 <p>This plugin aims to sort that by automatically resizing the web view as the softkeys are shown/hidden by user action. If you need to, you can also capture the height of the soft key/navbar with the following:</p>
 
+<pre>
 <code>
 	window.addEventListener("navbarchange", function(info)
 	{
 		alert("the nav bar is " + info.height + " high!");
 	}, false);
     
-</code>
+</code></pre>
 
 <p>Whilst this plugin uses properties that are only available on Windows Phone 8.1, it is backwards compatible and will run on earlier version but will do nothing.</p>
