@@ -2,18 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Windows;
 
-using System.Windows.Controls;
-using Microsoft.Devices;
-using System.Runtime.Serialization;
-using System.Threading;
-using System.Windows.Resources;
 using Microsoft.Phone.Controls;
-using Microsoft.Xna.Framework.Audio;
-using WPCordovaClassLib.Cordova.UI;
 using System.Diagnostics;
-using System.Net;
-using System.Text;
-using System.IO;
 using System.Xml;
 using System.Threading.Tasks;
 using System.Windows.Media;
